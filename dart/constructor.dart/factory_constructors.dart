@@ -1,0 +1,1 @@
+// Dart supports factory constructors, which can return subtypes or even null. To create a factory constructor, use the factory keyword:
