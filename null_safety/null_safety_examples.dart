@@ -5,7 +5,7 @@ Dart 2.12 introduced sound null safety, meaning that (when you enable null safet
 
 int? lineCount; // Uninitialized variables, initial value is null
 
-int a = null; // INVALID in null-safe Dart.
+int? a = null; // INVALID in null-safe Dart.
 int? b = null; // Valid in null-safe Dart.
 String name = 'Aidaiym';
 String? nullName;
@@ -43,3 +43,8 @@ void mainFunction() {
 // ??=  One is the ??= assignment operator, which assigns a value to a variable only if that variable is currently null:
 
 // ? - object that might be null, put a question mark (?)
+
+// If you’re unsure that an expression with a nullable type is null or not, you can use the conditional member access operator (?.) to conditional execute the remainder of the expression.
+
+// The following calls the 'action' method only if nullableObject is not null
+// nullableObject?.action();

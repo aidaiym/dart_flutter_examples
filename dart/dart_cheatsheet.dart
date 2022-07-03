@@ -11,3 +11,6 @@ int myObject = 4;
 String stringInterpolation = '${3 + 2}';
 String stringInterpolation2 = '${"word".toUpperCase()}';
 String stringInterpolation3 = '$myObject';
+
+
+// <Object> - any type
