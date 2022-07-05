@@ -1,7 +1,40 @@
 /* 
 RoadMap 
 
-OOP concepts:
+Fundamental knowledge:
+ OOP
+   Consepts
+   Principles
+         Encapsulation
+         Polymorphism
+         Inheritance
+         Abstraction.
+  Algorithms
+  Data Structure
+  Solid
+  KISS
+  Design Patterns
+  Architecture Patterns
+  DI
+  
+Enviroment
+  Git
+Testing
+  Implementationxsx
+    Unit
+    Golden
+    e2e
+    Flutter specific
+      Widget test
+
+Flutter
+  Inner working 
+
+
+
+
+
+
 
 Git and GitHub
 
