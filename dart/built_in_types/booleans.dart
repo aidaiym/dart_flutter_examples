@@ -1,0 +1,1 @@
+// Only two objects have type bool: the boolean literals true and false, which are both compile-time constants.

@@ -1,6 +1,14 @@
 /* Dart numbers come in two flavors:
-
-int
+Numbers (int, double)
+Strings (String)
+Booleans (bool)
+Lists (List, also known as arrays)
+Sets (Set)
+Maps (Map)
+Runes (Runes; often replaced by the characters API)
+Symbols (Symbol)
+The value null (Null)
+int 
 Integer values no larger than 64 bits, depending on the platform. On native platforms, values can be from -263 to 263 - 1. On the web, integer values are represented as JavaScript numbers (64-bit floating-point values with no fractional part) and can be from -253 to 253 - 1.
 
 double
