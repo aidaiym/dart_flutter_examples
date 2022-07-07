@@ -1,5 +1,6 @@
 /*
 Function
+ functions are objects and have a type, Function.
 
 A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times.
 
@@ -33,4 +34,12 @@ factorial(number) {
     return (number * factorial(number - 1));
     // function invokes itself
   }
+}
+
+void main2(List<String> arguments) {
+  print(arguments);
+
+  assert(arguments.length == 2);
+  assert(int.parse(arguments[0]) == 1);
+  assert(arguments[1] == 'test');
 }
