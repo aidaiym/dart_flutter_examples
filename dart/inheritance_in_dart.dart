@@ -1,6 +1,6 @@
 //  Dart has single inheritance.
 
-import 'classes.dart';
+import 'classes/classes.dart';
 
 class Orbiter extends Spacecraft {
   double altitude;

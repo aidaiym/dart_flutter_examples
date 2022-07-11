@@ -32,8 +32,6 @@ assignment	=    *=    /=   +=   -=   &=   ^=   etc.
 // // Harder to read, but equivalent.
 // if (n % i == 0 && d % i == 0) ...
 
-
-
 /*
 
 Operator	    Name	                              Meaning
@@ -48,3 +46,7 @@ Operator	    Name	                              Meaning
   !	Null assertion operator	Casts an expression to its underlying non-nullable type, throwing a runtime exception if the cast fails; example: foo!.bar asserts foo is non-null and selects the property bar, unless foo is null in which case a runtime exception is thrown
 
 */
+
+final name = 'Дарт';
+// name = 'Флаттер'; // Ката: final өзгөрмө бир гана жолу коюлушу мүмкүн.
+const pi = 3.14;

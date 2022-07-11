@@ -1,5 +1,5 @@
 // Mixins are a way of reusing code in multiple class hierarchies. The following is a mixin declaration:
-import 'classes.dart';
+import 'classes/classes.dart';
 
 mixin Piloted {
   int astronauts = 1;

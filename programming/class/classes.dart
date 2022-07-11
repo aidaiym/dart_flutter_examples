@@ -1,3 +1,6 @@
+// The class is a blueprint that defines a nature of a future object.
+//Classes are used to create and manage new objects and support inheritance—a key ingredient in object-oriented programming and a mechanism of reusing code.
+
 // first example
 class Spacecraft {
   String name;
