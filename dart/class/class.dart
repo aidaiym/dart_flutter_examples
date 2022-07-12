@@ -17,3 +17,8 @@ class Points {
   double? y; // Declare y, initially null.
   double z = 0; // Declare z, initially 0.
 }
+
+
+// Extending a class
+// Use extends to create a subclass, and super to refer to the superclass:
+

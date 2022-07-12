@@ -1,4 +1,6 @@
 /*
+Operators are instance methods with special names. 
+
 unary postfix	expr++    expr--    ()    []    ?[]    .    ?.    !
 unary prefix	-expr    !expr    ~expr    ++expr    --expr      await expr   
 multiplicative	*    /    %  ~/
