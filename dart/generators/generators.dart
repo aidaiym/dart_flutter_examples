@@ -25,3 +25,6 @@ Iterable<int> naturalsDownFrom(int n) sync* {
     yield* naturalsDownFrom(n - 1);
   }
 }
+
+
+bool isNoble ( int atomicNumber ) { return _nobleGases [ atomicNumber ] != null ; } 
