@@ -61,3 +61,8 @@ void align(bool clearItems) {
 // DO specify exports in a separate section after all imports.
 // DO specify exports in a separate section after all imports.
 // DO use curly braces for all flow control statements.
+// DON’T use block comments for documentation.
+// comments should use //
+// DO use /// doc comments to document members and types.
+// DO use square brackets in doc comments to refer to in-scope identifiers.
+// DO use prose to explain parameters, return values, and exceptions.
