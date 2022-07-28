@@ -37,4 +37,11 @@ void main() {
 
 DON’T create a lambda when a tear-off will do.
 DO use = to separate a named parameter from its default value.
+
+
+
+Optimized for UI
+Mature and complete async-await for user interfaces containing event-driven code, paired with isolate-based concurrency
+A programming language optimized for building user interfaces with features such as sound null safety, the spread operator for expanding collections, and collection if for customizing UI for each platform
+A programming language that is easy to learn, with a familiar syntax
 */
